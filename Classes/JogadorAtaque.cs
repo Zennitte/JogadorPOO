@@ -2,10 +2,9 @@ namespace Jogador_Exercicio.Classes
 {
     public class JogadorAtaque : Jogador
     {
-        public int Aposentar()
+        public override int Aposentar()
         {
-            int idadeAposentar = 35 - CalcularIdade();
-            return idadeAposentar;
+            return base.Aposentar();
         }
-    }
+    }    
 }

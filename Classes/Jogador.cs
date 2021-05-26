@@ -30,6 +30,11 @@ namespace Jogador_Exercicio.Classes
             int idade = DateTime.Now.Year - DataNasc;
 
             return idade;
+        }
+        public virtual int Aposentar()
+        {
+            int idadeAposentar = 35 - CalcularIdade();
+            return idadeAposentar;
         }        
     }
 }
