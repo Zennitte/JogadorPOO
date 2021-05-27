@@ -35,6 +35,15 @@ namespace Jogador_Exercicio.Classes
         {
             int idadeAposentar = 35 - CalcularIdade();
             return idadeAposentar;
+        }
+        public string MostrarInformacao()
+        {
+            return $@"
+            Nome: {Nome}
+            Data de Nacimento: {DataNasc}
+            Nacionalidade: {Nacionalidade}
+            Altura: {Altura}
+            Peso: {Peso}";
         }        
     }
 }

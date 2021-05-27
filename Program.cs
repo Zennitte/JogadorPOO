@@ -37,6 +37,8 @@ namespace Jogador_Exercicio
                     Console.WriteLine("Qual o seu peso?");
                     jA.Peso = Console.ReadLine();
 
+                    Console.WriteLine(jA.MostrarInformacao());
+
                     Console.WriteLine($"Você se aposentará em {jA.Aposentar()} anos");
                     break;
                 case "2":
@@ -55,6 +57,8 @@ namespace Jogador_Exercicio
                     Console.WriteLine("Qual o seu peso?");
                     jD.Peso = Console.ReadLine();
 
+                    Console.WriteLine(jD.MostrarInformacao());
+
                     Console.WriteLine($"Você se aposentará em {jD.Aposentar()} anos");
                     break;
                 case "3":
@@ -72,6 +76,8 @@ namespace Jogador_Exercicio
 
                     Console.WriteLine("Qual o seu peso?");
                     jM.Peso = Console.ReadLine();
+
+                    Console.WriteLine(jM.MostrarInformacao());
 
                     Console.WriteLine($"Você se aposentará em {jM.Aposentar()} anos");
                     break;
